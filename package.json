@@ -1,0 +1,28 @@
+{
+  "name": "cocotte-driver-mongo",
+  "description": "cocotte用mongodbドライバ",
+  "homepage": "https://github.com/yukik/cocotte-driver-mongo",
+  "keywords": [
+    "cocotte",
+    "database",
+    "mongodb"
+  ],
+  "author": "Yuki Kurata <yuki.kurata@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yukik/cocotte-driver-mongo.git"
+  },
+  "dependencies": {
+    "cocotte-helper": "*"
+  },
+  "main": "lib/mongo.js",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
