@@ -13,10 +13,14 @@
     "url": "git://github.com/yukik/cocotte-driver-mongo.git"
   },
   "dependencies": {
-    "cocotte-helper": "*"
+    "mongodb": "*",
+    "cocotte-driver": "*",
+    "cocotte-helper": "*",
+    "cocotte-flow": "*",
+    "cocotte-row-states": "*"
   },
   "main": "lib/mongo.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "test": "node ./test/test.js"
   },
